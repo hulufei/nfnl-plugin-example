@@ -39,15 +39,7 @@ with a configuration table.
 
 ## Usage
 
-Feel free to fork / copy / steal / borrow / modify / mutate / scramble / fry /
-reticulate splines / incorporate this repository in any way you see fit. It can
-be an inspiration, reference or template. That's entirely up to you and what you
-need right now.
-
-If you build something with nfnl let me know and I'll link to it from here as
-further examples of how to work with it.
-
-Have fun!
+- Run `./script/setup your-plugin-name` change all `nfnl-plugin-example` to `your-plugin-name`
 
 ## Unlicensed
 

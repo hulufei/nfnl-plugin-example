@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+set -xe
+
+mv ./lua/nfnl-plugin-example ./lua/$1
+mv ./fnl/nfnl-plugin-example ./fnl/$1
+
+fd --no-ignore --extension .fnl . fnl/ --exec sd "nfnl-plugin-example" $1
+fd --no-ignore --extension .lua . lua/ --exec sd "nfnl-plugin-example" $1
+
+./script/nfnl $1
